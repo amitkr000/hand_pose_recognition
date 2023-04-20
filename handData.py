@@ -45,6 +45,7 @@ while True:
             for lm in handslms.landmark:
                 landmarks.append(lm.x)
                 landmarks.append(lm.y)
+                landmarks.append(lm.z)
 
         	# Drawing landmarks on frames
         mpDraw.draw_landmarks(frame, handslms, mpHands.HAND_CONNECTIONS)
@@ -58,7 +59,7 @@ while True:
     cv2.imshow("Output", frame)
 
     # name of csv file 
-    filename = "handData.csv"
+    filename = "final_handData.csv"
 
     # In Capture interval, store the keypoints in csv file
     if cv2.waitKey(1)%256 == 32:

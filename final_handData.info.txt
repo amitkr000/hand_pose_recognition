@@ -1,0 +1,9 @@
+
+Time Taken : 45 min to collect the data
+
+Features : 63[ 3(x,y,z) * 21 ]
+
+Classes : 5
+
+
+
